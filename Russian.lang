@@ -10,8 +10,8 @@ command.error.noPermission({name})=&cУ вас нет прав использо�
 command.error.onlyForPlayer()=&cЭту команду может исполнить только игрок!
 
 ##]-> /lagg
-command.lagg.nopermission()=&cУ вас нет прав использовать эту команду!
-command.lagg.header()=&3-------------(&b&lВаши Clearlag команды&3)-------------
+command.lagg.nopermission()=&cУ вас нет прав использовать этой команды!
+command.lagg.header()=&3-------------(&b&lClearlag&3)-------------
 command.lagg.footer()=&3----------------------------------------------------
 command.lagg.helpline({name},{desc})= &4- &8/&3lagg &b{name} &f -  {desc}
 
@@ -31,7 +31,7 @@ command.admin.startableModules({modules})=&aЗапускаемые модули:
 command.admin.alreadyEnabled({module})=&cЭтот модуль уже активирован!
 command.admin.enabled({module})=&Модуль {module} был активирован!
 command.admin.moduleStatus({listeners},{commands},{tasks},{modules})={
-&3=--------------[&6-&3] &b&lModule Status &3[&6-&3]----------------=
+&3=--------------[&6-&3] &b&lСтатус модуля&3[&6-&3]----------------=
               &8[&7Gray = Disabled&8]   &8[&aGreen = Enabled&8]
 &6Listeners: {commands}
 &6Commands: {commands}
